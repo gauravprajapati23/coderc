@@ -43,13 +43,24 @@
     }
 
     /* Top heading styles */
-    .top-heading {
+    h3 {
         text-align: center;
         font-family: Fantasy; /* Apply Poppins font */
-        font-size: 30px;
+        font-size: 40px;
         font-weight: bold;
         color: #fff; /* White color */
         margin-top: 0.5cm;
+        margin-bottom: 0cm;
+        text-shadow: 2px 2px 4px rgba(128, 128, 128, 0.5);
+        animation: neon 1.5s ease-in-out infinite alternate;
+    }
+h6 {
+        text-align: center;
+        font-family: Fantasy; /* Apply Poppins font */
+        font-size: 13px;
+        font-weight: italic;
+        color: #fff; /* White color */
+        margin-top: 0cm;
         margin-bottom: 0.5cm;
         text-shadow: 2px 2px 4px rgba(128, 128, 128, 0.5);
         animation: neon 1.5s ease-in-out infinite alternate;
